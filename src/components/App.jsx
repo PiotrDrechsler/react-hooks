@@ -10,7 +10,7 @@ function App() {
   const [count, setCount] = useState(0);
   const [student, setStudent] = useState({ name: 'John', age: 25 });
 
-  // console.log('useBattery', useBattery());
+  console.log('useBattery', useBattery());
 
   const incrementCount = () => {
     setCount(count + 1);
@@ -29,8 +29,6 @@ function App() {
   }, [count]);
 
   const [prawda, zmienPrawda] = useToggle(true);
-
-  const MyContext = createContext();
 
   const myBtnRef = useRef();
   const myInputRef = useRef('Hello World!');

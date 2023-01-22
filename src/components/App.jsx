@@ -1,4 +1,4 @@
-import { useState, useEffect, createContext, useRef } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { useBattery } from 'react-use';
 
 import { useToggle } from 'hooks';
